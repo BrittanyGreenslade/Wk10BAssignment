@@ -4,10 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="/css/style.css" />
   </head>
-  <body></body>
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  <script src="app.js"></script>
+  <body>
+    <header><h1>Coupla Tasty Craft Beers</h1></header>
+    <a href="/pages/selection.html">Checkout</a>
+    <main>
+      <div class="itemContainer" onclick="selectItem(`Jam Rock`)">
+        <h2>Jam Rock</h2>
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/5b4d5c1829711496f9f52d76/1601930983277-B4WWJY0O4IAEI8Y8HN7Y/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmwbA6upbL5Bu97tJociXJklKprRMdH2Tl4F1PjaoPT3YUs5wkl5ojCV1O900UJ7ME/16_JamRock_Sleeve_2020.png-square-1024x1024.png?format=750w"
+          alt="Jam Rock Beer - The Establishment Brewing"
+        />
+      </div>
+      <div class="itemContainer" onclick="selectItem(`Super Saturation`)">
+        <h2>Super Saturation</h2>
+        <img
+          src="https://cdn.shoplightspeed.com/shops/626891/files/29944576/660x880x1/cabin-brewing-super-saturation-nepa-473ml.jpg"
+          alt="Super Saturation Beer - Cabin Brewing"
+        />
+      </div>
+      <div class="itemContainer" onclick="selectItem(`Kveik Pilsner`)">
+        <h2>Kveik Pilsner</h2>
+        <img
+          src="https://cdn.shopify.com/s/files/1/0359/3037/4281/products/5584220-ODDCOMPANYkveikpilsner_580x.jpg?v=1615699924"
+          alt="Kveik Pilsner Beer - Odd Company Brewing"
+        />
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
 </html>
