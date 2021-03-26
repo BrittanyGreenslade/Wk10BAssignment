@@ -1,0 +1,15 @@
+#!/usr/bin/bash;
+mkdir "$1";
+cd "$1";
+touch index.html;
+echo "Creating a new project";
+echo "Hello World" > index.html;
+mkdir css;
+cd css;
+touch style.css;
+cd ..;
+mkdir js;
+cd js;
+touch app.js;
+cd ..;
+echo "All done!";
